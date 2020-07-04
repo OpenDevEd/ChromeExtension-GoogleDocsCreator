@@ -10,7 +10,9 @@ mkdir chrome-extensions
 cd chrome-extensions
 git clone https://github.com/OpenDevEd/ChromeExtension-GoogleDocsCreator.git
 ```
-Then in Chrome, got Extensions, enable Developer mode, then load unpacked. Navigate to home/chrome-extensions/ChromeExtension-GoogleDocsCreator and open.
+Then in Chrome, go to Extensions, enable Developer mode, then "load unpacked".
+
+Navigate to home/chrome-extensions/ChromeExtension-GoogleDocsCreator and open.
 
 
 
