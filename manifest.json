@@ -1,20 +1,23 @@
 {
+    "manifest_version": 3,
     "name": "GDocs Creator",
-    "version": "0.0.3",
-    "description": "Bookmarklets for GDocs/Sheets/GDrive folders: One-click downloads and one-click creation of new GDocs/Sheets in specific folders.",
+    "version": "1.0",
+    "description": "One-click downloads and one-click creation of new GDocs / Sheets / Slides / Forms / Drawings in specific GDrive folders.",
     "permissions": [
-	"bookmarks",
-	"activeTab"
+        "bookmarks",
+        "activeTab"
     ],
-    "background": {
-	"scripts": ["background.js"],
-	"persistent": false
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "noun_new_1887016_16.png",
+            "48": "noun_new_1887016_48.png",
+            "128": "noun_new_1887016_128.png"
+        }
     },
-    "browser_action": {
-	"default_title": "GDocs Creator",
-	"default_icon": "noun_new_1887016.png",
-	"default_popup": "popup.html"
-    },
-    "manifest_version": 2,
-    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+    "icons": {
+        "16": "noun_new_1887016_16.png",
+        "48": "noun_new_1887016_48.png",
+        "128": "noun_new_1887016_128.png"
+    }
 }

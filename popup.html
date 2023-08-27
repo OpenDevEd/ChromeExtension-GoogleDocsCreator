@@ -1,11 +1,11 @@
 <html>
 <head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="jquery.min.js"></script>
   <script src="popup.js"></script>
   <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
-<body style="width: 400px" onload="makeCollapsible()">
-  <h1 id="title"><img src="noun_new_1887016.png" height="18px" width="18px"/> Google Docs Creator</h1>
+<body style="width: 400px">
+  <h1 id="title"><img src="noun_new_1887016_128.png" height="18px" width="18px"/> GDocs Creator</h1>
   <div id="url">Loading...</div>
   <div id="buttonPanel">
     <button id="button">Add bookmarks for '+doc' links to 'other bookmarks'</button>
@@ -17,7 +17,7 @@
       <div id="optional">Enter the following options:</div>
       <form>
 	<div id="prefixPanel"><label>Add a string to be added to title:</label> <input id="prefix"></div>
-	<div id="userPanel"><label>Add an 'authuser' (number or one of your gmail addresses): </label><input id="user"></div>
+	<div id="userPanel"><label>Add an 'authuser' (number or one of your GMail addresses): </label><input id="user"></div>
 	<div id="templatePanel"><label>Link to Google Docs to be used as template: </label><input id="template"></div>
       </form>
     </div>
@@ -37,6 +37,6 @@
     <button id="detailsButton" type="button" class="collapsible">Details</button>
     <div id="details" class="content pullout">
   </div>  
-  <div id="footer">About this <a target=_new href="https://bjohas.de/go/google-docs-helper-bookmarklet">chrome extension</a>. Icon "new" by <a target=_new href="https://thenounproject.com/term/cloud/1887016/">Alice Design from the Noun Project</a>.</div>
+  <div id="footer">About this <a target=_new href="https://github.com/OpenDevEd/ChromeExtension-GoogleDocsCreator">Google Chrome extension</a>. Icon "new" by <a target=_new href="https://thenounproject.com/term/cloud/1887016/">Alice Design from the Noun Project</a>.</div>
 </body>
 </html>
